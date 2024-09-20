@@ -38,4 +38,3 @@
   <a href="moreiralukas31@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 </div>
 
-![Snake animation](https://github.com/LucasGonMoreira/LucasGonMoreira/blob/main/.github/workflows/main.yml)
