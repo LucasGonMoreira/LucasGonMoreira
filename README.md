@@ -27,7 +27,7 @@
 
 <div align="center" style="display: flex; justify-content: center;">
   <a href="https://github.com/LucasGonMoreira">
-    <img height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LucasGonMoreira&layout=compact"/>
+    <img height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&theme=transparent"/>
     <img height="195px" src="https://github-readme-stats.vercel.app/api?username=LucasGonMoreira&show_icons=true&theme=transparent"/>
   </a>
 </div>
