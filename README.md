@@ -28,7 +28,7 @@
 
 <div align="center" style="display: flex; justify-content: center;">
   <a href="https://github.com/LucasGonMoreira">
-    <img height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&theme=transparent"/>
+    <img height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LucasGonMoreira&layout=compact&langs_count=9&theme=one_dark_pro&count_private=true&theme=transparent"/>
     <img height="195px" src="https://github-readme-stats.vercel.app/api?username=LucasGonMoreira&show_icons=true&theme=transparent"/>
   </a>
 </div>
