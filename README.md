@@ -4,7 +4,7 @@
 
 ### Technologies and tools:
 
-<div style="display: inline_block"><br>
+<div style="display: inline_block">
   <img align="center" alt="Lu-PY" height="35" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg">
   <img align="center" alt="Lu-Jav" height="35" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
   <img align="center" alt="Lu-Vercel" height="35" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg">
