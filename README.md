@@ -13,7 +13,7 @@
   <img align="center" alt="Lu-GF" height="35" width="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/grafana.svg" />
   <img align="center" alt="Lu-ZB" height="35" width="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/zabbix.svg" />
   <img align="center" alt="Lu-Lnx" height="35" width="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/linux.svg" />
-</div><br>
+</div>
 
 ### Learning technologies:
 <div style="display: inline_block">
