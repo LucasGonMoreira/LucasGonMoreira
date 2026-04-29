@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Pixel Art Profile" src="./pixelart.gif" width="700" height="550">
+  <img alt="Pixel Art Profile" src="./pixelart.gif" width="600" height="450">
 </p>
 
   [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=500&lines=Opa%2C+Tudo+certo%3F+bem+vindo+ao+meu+GitHub!)](https://git.io/typing-svg)
