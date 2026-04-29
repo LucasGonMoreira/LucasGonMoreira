@@ -4,26 +4,20 @@
 
 ### Technologies and tools:
 
-<div>
-  <img alt="Lu-PY" height="35" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg">
-  <img alt="Lu-Jav" height="35" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
-  <img alt="Lu-Vercel" height="35" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg">
-  <img alt="Lu-Git" height="35" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
-  <img alt="Lu-PG" height="35" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg">
-  <img alt="Lu-GF" height="35" width="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/grafana.svg" />
-  <img alt="Lu-ZB" height="35" width="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/zabbix.svg" />
-  <img alt="Lu-Lnx" height="35" width="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/linux.svg" />
-</div>
+<img alt="Lu-PY" height="35" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"> <img alt="Lu-Jav" height="35" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"> <img alt="Lu-Vercel" height="35" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"> <img alt="Lu-Git" height="35" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"> <img alt="Lu-PG" height="35" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"> <img alt="Lu-GF" height="35" width="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/grafana.svg"> <img alt="Lu-ZB" height="35" width="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/zabbix.svg"> <img alt="Lu-Lnx" height="35" width="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/linux.svg">
 
 ### Learning technologies:
 
-<div>
-  <img alt="Lu-Js" height="35" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img alt="Lu-RCT" height="35" width="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/reactjs.svg" />
+<img alt="Lu-Js" height="35" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> <img alt="Lu-RCT" height="35" width="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/reactjs.svg">
+
+### GitHub Stats
+
+<div align="center">
+  <a href="https://github.com/LucasGonMoreira">
+    <img height="195" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LucasGonMoreira&layout=compact&langs_count=9&theme=transparent&count_private=true" alt="Top Languages"/> <img height="195" src="https://github-readme-stats.vercel.app/api?username=LucasGonMoreira&show_icons=true&theme=transparent" alt="GitHub Stats"/>
+  </a>
 </div>
 
-
-    
 ### Contact
 
 <div> 
