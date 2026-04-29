@@ -25,7 +25,7 @@
       <img alt="Zabbix" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/zabbix.svg" height="25"> Zabbix
     </td>
     <td width="33%" valign="top">
-      <h3>Estudando</h3>
+      <h3>Studying</h3>
       <img alt="JS" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" height="25"> JavaScript<br>
       <img alt="React" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/reactjs.svg" height="25"> Reactjs<br>
       <img alt="React" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/html-light.svg" height="25"> HTML<br>
