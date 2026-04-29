@@ -22,14 +22,7 @@
   <img alt="Lu-RCT" height="35" width="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/reactjs.svg" />
 </div>
 
-### GitHub Stats
 
-<div align="center">
-  <a href="https://github.com/LucasGonMoreira">
-    <img height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LucasGonMoreira&layout=compact&langs_count=9&theme=transparent&count_private=true" alt="Top Languages"/>
-    <img height="195px" src="https://github-readme-stats.vercel.app/api?username=LucasGonMoreira&show_icons=true&theme=transparent" alt="GitHub Stats"/>
-  </a>
-</div>
     
 ### Contact
 
