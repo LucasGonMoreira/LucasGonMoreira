@@ -27,9 +27,8 @@
     <td width="33%" valign="top">
       <h3>Studying</h3>
       <img alt="JS" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" height="25"> JavaScript<br>
-      <img alt="React" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/reactjs.svg" height="25"> Reactjs<br>
-      <img alt="React" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/html-light.svg" height="25"> HTML<br>
-      <img alt="React" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/css-light.svg" height="25"> CSS<br>
+      <img alt="React" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/reactjs.svg" height="25"> React.js<br>
+      <img alt="Vue" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/vue-js.svg" height="25"> Vue.js<br>
       <img alt="Flutter" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/flutter.svg" height="25"> Flutter
     </td>
   </tr>
