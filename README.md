@@ -30,7 +30,7 @@
       <img alt="React" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/reactjs.svg" height="25"> Reactjs<br>
       <img alt="React" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/html-light.svg" height="25"> HTML<br>
       <img alt="React" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/css-light.svg" height="25"> CSS<br>
-      <img alt="React" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/flutter.svg" height="25"> Flutter
+      <img alt="Flutter" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/flutter.svg" height="25"> Flutter
     </td>
   </tr>
 </table>
