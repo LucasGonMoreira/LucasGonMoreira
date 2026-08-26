@@ -1,27 +1,4 @@
-"""
-Render "AVI" as an EXTRUDED 3D wordmark rasterized to ASCII, and emit it as an
-SVG that animates on GitHub (SMIL only -- GitHub runs SVG animations in <img>,
-but never JS).
 
-Pipeline: draw the word with a bold TTF -> threshold to a mask -> extrude the
-mask along +z into a surface voxel shell (front cap, back cap, boundary sides)
--> rotate / project each frame -> z-buffer splat into a character grid, char
-picked by Lambert shading of the surface normal.
-
-Rotation is a pre-rendered ASCII flipbook: one <g> per frame, cycled with a
-discrete opacity animation. Only surface voxels are kept and blank rows/edges
-are trimmed, which is what keeps the file to a sane size.
-
-All modes open with the same left-to-right wipe, then differ in the rotation:
-  rock   -- oscillates +/-11 deg around the rest pose, forever (this is the one
-            wired into the README)
-  once   -- one full 360 deg turn, then freezes on the 3/4 rest pose
-  spin   -- continuous 360 deg turntable, forever
-  static -- frozen frame 0, no animation, for eyeballing a render
-
-Env overrides: WORDMARK_TEXT, WORDMARK_FONT, WORDMARK_FONT_INDEX, WORDMARK_TILT,
-WORDMARK_COLS, WORDMARK_ROW_MARGIN.  See docs/3d-ascii-wordmark.md.
-"""
 import argparse
 import html
 import math
@@ -49,7 +26,7 @@ FONT_PATH = os.environ.get("WORDMARK_FONT", "/System/Library/Fonts/Futura.ttc")
 FONT_INDEX = int(os.environ.get("WORDMARK_FONT_INDEX", 2))   # face within a .ttc
 # three letters across the full width leaves ~30 grid columns each, which is what
 # lets the cells be big enough to read as characters rather than as dither.
-TEXT = os.environ.get("WORDMARK_TEXT", "AVI")
+TEXT = os.environ.get("WORDMARK_TEXT", "LGM")
 
 MASK_H = 300           # glyph raster height in mask px (drives voxel density)
 TRACKING = 0.14        # extra letter-spacing, in em. counter gaps must survive the
@@ -256,7 +233,7 @@ def emit(frames, mode, out, dur, reveal):
     for i, dot in enumerate(["#ff5f56", "#ffbd2e", "#27c93f"]):
         p.append(f'<circle cx="{PAD + i*15}" cy="{TITLEBAR_H/2}" r="4.5" fill="{dot}"/>')
     p.append(f'<text x="{canvas_w/2:.0f}" y="{TITLEBAR_H/2 + 4:.0f}" fill="{TITLE_TEXT}" '
-             f'font-size="11.5" text-anchor="middle">avi@github: ~$ ./wordmark.sh --3d</text>')
+             f'font-size="11.5" text-anchor="middle">LucasGonMoreira@github: ~$ ./wordmark.sh --3d</text>')
 
     def frame_g(rows, extra=""):
         out_rows = []
@@ -317,7 +294,7 @@ def emit(frames, mode, out, dur, reveal):
 
     p.append("</svg>")
     svg = "".join(p)
-    with open(out, "w") as fh:
+    with open(out, "w", encoding="utf-8") as fh:
         fh.write(svg)
     print(f"wrote {out}  {len(svg)/1024:.1f} KB  {n} frames  {canvas_w:.0f}x{canvas_h:.0f}")
 

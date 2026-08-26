@@ -5,7 +5,7 @@ Usage: python generate_streak_svg.py [username] [output.svg]
 """
 import sys, json, os, datetime, urllib.request
 
-USER = sys.argv[1] if len(sys.argv) > 1 else "AVIVASHISHTA29"
+USER = sys.argv[1] if len(sys.argv) > 1 else "LucasGonMoreira"
 OUT  = sys.argv[2] if len(sys.argv) > 2 else "streak.svg"
 
 def get_data(user):
@@ -78,5 +78,5 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
 <text class="total" x="{LEFT}" y="{H-6}">{total:,} contributions in the last year</text>
 </svg>'''
 
-open(OUT, "w").write(svg)
+open(OUT, "w", encoding="utf-8").write(svg)
 print(f"Wrote {OUT}: {n} days, {total:,} contributions, {len(svg)//1024} KB")

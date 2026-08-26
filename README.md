@@ -1,42 +1,41 @@
 <div align="center">
 
-<!-- hero: monochrome ASCII portrait (types in) beside the extruded 3d ascii
-     wordmark (wipes in left-to-right, then rocks on its vertical axis).
-     widths are picked so both panels land at the same height.
-     portrait: python scripts/prep_photo.py <photo> && python scripts/make_ascii_svg.py
-     wordmark: python scripts/make_wordmark_svg.py --mode rock
-     how the wordmark is built: docs/3d-ascii-wordmark.md -->
-
-<h3><code>avi@github ~ $ whoami</code></h3>
+<h3><code>LucasGonMoreira@github ~ $ whoami</code></h3>
 
 <table>
 <tr>
-<td valign="top"><img src="./avi-ascii.svg" width="370" alt="Avi Vashishta — ASCII portrait" /></td>
-<td valign="top"><img src="./wordmark.svg" width="490" alt="AVI — 3D ASCII wordmark" /></td>
+<td valign="top"><img src="./lucas-ascii.svg" width="400" alt="Retrato ASCII de Lucas Gonçalves Moreira" /></td>
+<td valign="top"><img src="./wordmark.svg" width="400" alt="Nome de Lucas em arte ASCII 3D" /></td>
 </tr>
 </table>
 
 <br>
 <br>
 
-<!-- animated contribution graph: real data, boxes reveal cell by cell
-     (regenerated daily by .github/workflows/update-profile-art.yml) -->
+<h3><code>LucasGonMoreira@github ~ $ ./contributions.sh</code></h3>
 
-<h3><code>avi@github ~ $ ./contributions.sh</code></h3>
-
-<img src="./contrib-heatmap.svg" width="860" alt="Avi's GitHub contribution graph — auto-refreshed daily" />
+<img src="./contrib-heatmap.svg" width="860" alt="Gráfico de contribuições de Lucas no GitHub" />
 
 <br>
 <br>
 
-<h3><code>avi@github ~ $ ./links.sh</code></h3>
+<h3><code>LucasGonMoreira@github ~ $ ./links.sh</code></h3>
 
-<p><b>Fullstack Developer · AI Builder · Instructor</b></p>
+<p><b>Desenvolvedor em formação · Tecnologia e Observabilidade</b></p>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-avivashishta.com-0d1117?style=for-the-badge&logo=vercel&logoColor=white)](https://www.avivashishta.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-avivashishta-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/avivashishta)
-[![Instagram](https://img.shields.io/badge/Instagram-avi__vashishta29-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/avi_vashishta29)
-[![Live Terminal](https://img.shields.io/badge/⚡_Live_Terminal-avivashishta29.github.io-22d3ee?style=for-the-badge&logo=gnometerminal&logoColor=black)](https://avivashishta29.github.io)
+[![GitHub](https://img.shields.io/badge/GitHub-LucasGonMoreira-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LucasGonMoreira)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-lucasgonmoreira-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucasgonmoreira/)
+[![Gmail](https://img.shields.io/badge/Gmail-moreiralukas31-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:moreiralukas31@gmail.com)
+
+<h3><code>LucasGonMoreira@github ~ $ ./learning.sh</code></h3>
+
+<p>Atualmente aprendendo e desenvolvendo projetos com:</p>
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Zabbix](https://img.shields.io/badge/Zabbix-D40000?style=for-the-badge&logo=zabbix&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![pgAdmin](https://img.shields.io/badge/pgAdmin-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 
 <br>
 
