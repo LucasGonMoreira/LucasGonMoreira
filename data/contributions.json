@@ -1,17 +1,17 @@
 {
   "username": "LucasGonMoreira",
-  "generated_at": "2026-08-30T11:57:51Z",
+  "generated_at": "2026-08-31T13:57:41Z",
   "range": {
     "start": "2025-08-31",
-    "end": "2026-08-30"
+    "end": "2026-08-31"
   },
-  "total_contributions": 312,
-  "active_days": 76,
+  "total_contributions": 313,
+  "active_days": 77,
   "avg_per_active_day": 4.1,
   "current_streak": {
-    "length": 4,
+    "length": 5,
     "start": "2026-08-26",
-    "end": "2026-08-29"
+    "end": "2026-08-30"
   },
   "longest_streak": {
     "length": 5,
@@ -73,7 +73,7 @@
     },
     {
       "month": "2026-08",
-      "total": 10
+      "total": 11
     }
   ],
   "days": [
@@ -1535,6 +1535,10 @@
     },
     {
       "date": "2026-08-30",
+      "count": 1
+    },
+    {
+      "date": "2026-08-31",
       "count": 0
     }
   ]
