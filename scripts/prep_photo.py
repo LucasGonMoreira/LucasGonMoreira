@@ -23,10 +23,28 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 INP = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "source-photo.jpg")
 OUT = sys.argv[2] if len(sys.argv) > 2 else os.path.join(HERE, "..", "source-prepped.png")
 
-# 1. cut out the subject
-cut = remove(Image.open(INP).convert("RGBA"))
-rgb = np.array(cut.convert("RGB"))
+# 1. cut out the subject. Keep RGB from the original image: rembg clears the
+# color channels of transparent pixels, but we restore the phone below.
+source = Image.open(INP).convert("RGBA")
+cut = remove(source)
+rgb = np.array(source.convert("RGB"))
 alpha = np.array(cut.split()[-1])                 # 0 = background
+
+# rembg recognizes the person and hand well, but can treat the dark phone as
+# part of the background. Preserve the phone body for this portrait using a
+# small polygon expressed as proportions of the image size, so it keeps
+# working if the source photo is resized without changing its composition.
+h, w = alpha.shape
+phone_mask = np.zeros_like(alpha)
+x1, y1 = int(w * 0.600), int(h * 0.285)
+x2, y2 = int(w * 0.805), int(h * 0.605)
+radius = max(1, int(w * 0.018))
+cv2.rectangle(phone_mask, (x1 + radius, y1), (x2 - radius, y2), 255, -1)
+cv2.rectangle(phone_mask, (x1, y1 + radius), (x2, y2 - radius), 255, -1)
+for cx, cy in ((x1 + radius, y1 + radius), (x2 - radius, y1 + radius),
+               (x1 + radius, y2 - radius), (x2 - radius, y2 - radius)):
+    cv2.circle(phone_mask, (cx, cy), radius, 255, -1)
+alpha = np.maximum(alpha, phone_mask)
 
 # 2. local-contrast the luminance (CLAHE)
 gray = cv2.cvtColor(rgb, cv2.COLOR_RGB2GRAY)
