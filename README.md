@@ -8,24 +8,27 @@
 
 <h2>Olá, eu sou Lucas Gonçalves Moreira 👋</h2>
 
-<p><b>Analista de Redes · Monitoramento · Infraestrutura · Aspirante a Cybersecurity</b></p>
+<p><b>Redes · Monitoramento & Observabilidade · Infraestrutura · Cybersecurity</b></p>
 
 <p>
-Atuo como <b>Analista de Redes</b>, com foco em infraestrutura, monitoramento e observabilidade.
-Gerencio <b>máquinas virtuais, containers e servidores Proxmox</b>, contribuindo para a
-disponibilidade, organização e desempenho dos ambientes.
+Trabalho com <b>redes e infraestrutura</b>, principalmente com monitoramento, observabilidade e administração de ambientes. No dia a dia, mexo com <b>servidores Linux, máquinas virtuais, containers e Proxmox</b>, além de equipamentos e serviços de rede.
 </p>
 
 <p>
-Tenho conhecimentos em <b>Zabbix, Grafana e Python</b>, aplicados ao acompanhamento de ambientes,
-à visualização de métricas e à automação de rotinas. Também sou <b>aspirante a Cybersecurity</b>
-e estou aprendendo conceitos, práticas e ferramentas de segurança da informação.
+Tenho experiência com <b>Zabbix, Grafana e Python</b>, criando monitoramentos, dashboards e automações para facilitar a rotina e ter mais visibilidade do ambiente.
 </p>
 
 <p>
-Atualmente trabalho na <b>Netline Telecom</b>, em Cajazeiras–PB,
-e sigo desenvolvendo minha formação na <b>Faculdade Católica da Paraíba</b>.
+🔐 Atualmente também estou entrando no mundo de <b>Cybersecurity</b>, estudando ferramentas, boas práticas e formas de melhorar a segurança dos ambientes.
 </p>
+
+<p>
+💼 <b>Netline Telecom</b> — Cajazeiras/PB<br>
+🎓 <b>Ciência da Computação</b> — Faculdade Católica da Paraíba<br>
+🚀 Sempre estudando, testando coisas novas e compartilhando alguns projetos por aqui.
+</p>
+
+
 
 </td>
 <td valign="middle" align="center" width="45%">
